@@ -420,4 +420,34 @@ header .nav-bar .nav-items {
   align-items: center;
 }
 
+.sidebar {
+  width: 152px;
+  min-height: calc(100vh - 162.88px);
+  background-color: #010c30;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  padding: 46px 0;
+}
+.sidebar .sidebar-item {
+  width: 114px;
+  text-align: center;
+}
+.sidebar .sidebar-item p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.sidebar .sidebar-item.active {
+  color: #e88888;
+}
+.sidebar .sidebar-item.active .member-icon svg path {
+  fill: none;
+  stroke: #e88888;
+}
+.sidebar .sidebar-item.active svg path {
+  fill: #e88888;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,5 @@
 import Header from "./Components/Header";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <header>
         <Header />
       </header>
+      <main>
+        <Sidebar />
+      </main>
     </>
   );
 }

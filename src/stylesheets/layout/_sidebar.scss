@@ -1,0 +1,35 @@
+.sidebar {
+  width: 152px;
+  min-height: calc(100vh - 162.88px);
+  background-color: $primary-color;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  padding: 46px 0;
+  .sidebar-item {
+    width: 114px;
+    text-align: center;
+    p {
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+  .sidebar-item.active {
+    color: $active-color;
+    .member-icon {
+      svg {
+        path {
+          fill: none;
+          stroke: $active-color;
+        }
+      }
+    }
+    svg {
+      path {
+        fill: $active-color;
+      }
+    }
+  }
+}
