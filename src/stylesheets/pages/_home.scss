@@ -26,4 +26,22 @@ main {
       flex-basis: 52%;
     }
   }
+  .main-content.add-items {
+    .form-fields-container {
+      column-gap: 18px;
+    }
+    table {
+      margin-top: 10px;
+      text-align-last: left;
+    }
+    .card-bottom {
+      margin-top: 35px;
+    }
+    .card {
+      min-height: 299px;
+    }
+    .card-body {
+      min-height: calc(100% - 40.41px);
+    }
+  }
 }

@@ -1,3 +1,10 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the button component.
-// -----------------------------------------------------------------------------
+.btn-primary {
+  background-color: #0da300;
+}
+.btn-secondary {
+  background-color: #c53f3f;
+}
+button {
+  width: 77px;
+  border: none;
+}

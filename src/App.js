@@ -1,4 +1,5 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import AddItems from "./Components/AddItems";
 import Dashboard from "./Components/Dashboard";
 import Header from "./Components/Header";
 import Sidebar from "./Components/Sidebar";
@@ -6,17 +7,18 @@ import Sidebar from "./Components/Sidebar";
 function App() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <Sidebar />
-        <BrowserRouter>
+      <BrowserRouter>
+        <header>
+          <Header />
+        </header>
+        <main>
+          <Sidebar />
           <Routes>
             <Route path="/" element={<Dashboard />} />
+            <Route path="/add-items" element={<AddItems />} />
           </Routes>
-        </BrowserRouter>
-      </main>
+        </main>
+      </BrowserRouter>
     </>
   );
 }

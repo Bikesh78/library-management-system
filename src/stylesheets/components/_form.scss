@@ -1,0 +1,53 @@
+.primary-form {
+  display: flex;
+  justify-content: space-between;
+  color: $primary-color;
+}
+.form-fields-container {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  row-gap: 25px;
+  flex-wrap: wrap;
+  //   flex-basis: 82%;
+  max-width: 83%;
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .form-field {
+    width: 254px;
+  }
+  input,
+  select {
+    background-color: $input-color;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 5px;
+  }
+}
+.photo-field {
+  text-align: center;
+  .image-container {
+    margin: 0 auto;
+    width: 96px;
+    padding: 14px;
+    background-color: $input-color;
+    img {
+      width: 70px;
+    }
+  }
+  h4 {
+    color: $primary-color;
+    background-color: $input-color;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .button-container {
+    margin-top: 10px;
+    .btn-primary {
+      margin-right: 7px;
+    }
+  }
+}

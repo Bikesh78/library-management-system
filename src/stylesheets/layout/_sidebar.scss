@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   gap: 36px;
-  padding: 46px 0;
+  padding: 46px 19px;
   .sidebar-item {
     width: 114px;
     text-align: center;
@@ -14,6 +14,7 @@
     p {
       font-size: 14px;
       font-weight: 700;
+      color: white;
     }
   }
   .sidebar-item.active {
