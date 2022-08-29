@@ -1,3 +1,29 @@
-// -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
-// -----------------------------------------------------------------------------
+main {
+  display: flex;
+  min-height: calc(100vh - 162.88px);
+  .main-content {
+    flex-grow: 1;
+    background-color: $grey-bg-color;
+    padding: 40px 42px;
+  }
+  .main-content.dashboard {
+    .dashboard-row {
+      display: flex;
+      column-gap: 71px;
+      row-gap: 69px;
+      flex-wrap: wrap;
+    }
+    .card {
+      height: 299px;
+    }
+    .card-body {
+      height: calc(100% - 40.41px);
+    }
+    .card-small {
+      flex-basis: 35%;
+    }
+    .card-medium {
+      flex-basis: 52%;
+    }
+  }
+}

@@ -1,6 +1,5 @@
 .sidebar {
   width: 152px;
-  min-height: calc(100vh - 162.88px);
   background-color: $primary-color;
   color: white;
   display: flex;
@@ -11,6 +10,7 @@
   .sidebar-item {
     width: 114px;
     text-align: center;
+    cursor: pointer;
     p {
       font-size: 14px;
       font-weight: 700;

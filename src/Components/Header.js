@@ -21,7 +21,7 @@ const Header = () => {
       </div>
       <div className="nav-bar">
         <div className="nav-items">
-          <p>Quick Access</p>
+          <p style={{ textTransform: "uppercase" }}>Quick Access</p>
         </div>
         <div className="nav-items">
           <div className="icon-container">

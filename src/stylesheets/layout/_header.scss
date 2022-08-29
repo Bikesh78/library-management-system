@@ -1,7 +1,7 @@
 header {
   .header-content {
     padding: 6px 16px;
-    background: $header-bg-color;
+    background: $grey-bg-color;
     display: flex;
     gap: 20px;
   }
@@ -24,6 +24,7 @@ header {
       display: flex;
       gap: 5px;
       align-items: center;
+      cursor: pointer;
     }
   }
 }
