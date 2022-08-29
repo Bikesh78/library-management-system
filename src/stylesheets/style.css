@@ -522,6 +522,18 @@ button {
 .form-fields-container .form-field {
   width: 254px;
 }
+.form-fields-container .radio-field {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.form-fields-container .radio-field label {
+  margin-bottom: 0;
+  display: flex;
+}
+.form-fields-container .radio-field input {
+  width: initial;
+}
 .form-fields-container input,
 .form-fields-container select {
   background-color: #a9a9a9;
