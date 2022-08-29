@@ -1,0 +1,29 @@
+header {
+  .header-content {
+    padding: 6px 16px;
+    background: $header-bg-color;
+    display: flex;
+    gap: 20px;
+  }
+  .image-container {
+    width: 74px;
+  }
+  .text-container {
+    align-self: center;
+  }
+  .nav-bar {
+    padding: 20px 16px;
+    display: flex;
+    gap: 90px;
+    background-color: $primary-color;
+    color: white;
+    .icon-container {
+      width: 14px;
+    }
+    .nav-items {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+  }
+}
