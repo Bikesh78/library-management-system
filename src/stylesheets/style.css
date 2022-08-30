@@ -500,6 +500,8 @@ button {
 }
 .card .card-body table {
   width: 100%;
+  text-align: left;
+  color: #010c30;
 }
 
 .primary-form {
