@@ -590,12 +590,6 @@ main .main-content.dashboard .dashboard-row {
   row-gap: 69px;
   flex-wrap: wrap;
 }
-main .main-content.dashboard .card {
-  height: 299px;
-}
-main .main-content.dashboard .card-body {
-  height: calc(100% - 40.41px);
-}
 main .main-content.dashboard .card-small {
   flex-basis: 35%;
 }
