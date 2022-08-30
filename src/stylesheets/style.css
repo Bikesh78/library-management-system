@@ -479,6 +479,7 @@ header .nav-bar .nav-items {
 button {
   width: 77px;
   border: none;
+  padding: 5px 0;
 }
 
 .card {
@@ -534,8 +535,9 @@ button {
 .form-fields-container .radio-field input {
   width: initial;
 }
-.form-fields-container input,
-.form-fields-container select {
+
+input,
+select {
   background-color: #a9a9a9;
   outline: none;
   border: none;
@@ -610,6 +612,56 @@ main .main-content.add-items .card {
 }
 main .main-content.add-items .card-body {
   min-height: calc(100% - 40.41px);
+}
+main .main-content.issue .button-container {
+  margin-top: 20px;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+main .main-content.issue .card-top .card-body {
+  display: flex;
+  column-gap: 57px;
+}
+main .main-content.issue .card-top .card-body .image-container {
+  width: 137px;
+  flex-shrink: 0;
+}
+main .main-content.issue .card-top .primary-form {
+  flex-grow: 1;
+}
+main .main-content.issue .card-top .primary-form .form-fields-container {
+  max-width: 100%;
+  flex-wrap: nowrap;
+  column-gap: 40px;
+}
+main .main-content.issue .card-top .primary-form .form-left {
+  display: flex;
+  column-gap: 60px;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  border-right: solid 1px #010c30;
+}
+main .main-content.issue .card-top .primary-form .form-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+main .main-content.issue .card-bottom {
+  margin-top: 20px;
+  min-height: 299px;
+}
+main .main-content.issue .card-bottom .form-fields-container {
+  max-width: 100%;
+  column-gap: 25px;
+  flex-wrap: nowrap;
+}
+main .main-content.issue .card-bottom .form-fields-container .form-field {
+  width: 230px;
+}
+main .main-content.issue .card-bottom table {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

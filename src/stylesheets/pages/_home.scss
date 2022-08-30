@@ -44,4 +44,59 @@ main {
       min-height: calc(100% - 40.41px);
     }
   }
+  .main-content.issue {
+    .button-container {
+      margin-top: 20px;
+      margin-left: auto;
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+    .card-top {
+      .card-body {
+        display: flex;
+        column-gap: 57px;
+        .image-container {
+          width: 137px;
+          flex-shrink: 0;
+        }
+      }
+      .primary-form {
+        flex-grow: 1;
+        .form-fields-container {
+          max-width: 100%;
+          flex-wrap: nowrap;
+          column-gap: 40px;
+        }
+        .form-left {
+          display: flex;
+          column-gap: 60px;
+          flex-wrap: wrap;
+          row-gap: 25px;
+          border-right: solid 1px $primary-color;
+        }
+        .form-right {
+          display: flex;
+          flex-direction: column;
+          row-gap: 25px;
+        }
+      }
+    }
+
+    .card-bottom {
+      margin-top: 20px;
+      min-height: 299px;
+      .form-fields-container {
+        max-width: 100%;
+        column-gap: 25px;
+        flex-wrap: nowrap;
+        .form-field {
+          width: 230px;
+        }
+      }
+      table {
+        margin-top: 20px;
+      }
+    }
+  }
 }

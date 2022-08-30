@@ -30,14 +30,14 @@
       width: initial;
     }
   }
-  input,
-  select {
-    background-color: $input-color;
-    outline: none;
-    border: none;
-    width: 100%;
-    padding: 5px;
-  }
+}
+input,
+select {
+  background-color: $input-color;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 5px;
 }
 .photo-field {
   text-align: center;
