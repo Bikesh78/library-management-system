@@ -19,6 +19,9 @@
   }
   .sidebar-item.active {
     color: $active-color;
+    p {
+      color: $active-color;
+    }
     .member-icon {
       svg {
         path {

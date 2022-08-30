@@ -1,11 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = () => {
+  const location = useLocation();
+  console.log(location);
   return (
     <div className="sidebar">
       <Link to="/">
-        <div className="sidebar-item">
+        <div
+          className={`sidebar-item ${
+            location.pathname === "/" ? "active" : ""
+          }`}
+        >
           <div className="sidebar-icon">
             <svg
               width="56"
@@ -26,7 +32,11 @@ const Sidebar = () => {
         </div>
       </Link>
       <Link to="/add-items">
-        <div className="sidebar-item">
+        <div
+          className={`sidebar-item ${
+            location.pathname === "/add-items" ? "active" : ""
+          }`}
+        >
           <div className="sidebar-icon">
             <svg
               width="48"
@@ -47,7 +57,11 @@ const Sidebar = () => {
         </div>
       </Link>
       <Link to="/add-member">
-        <div className="sidebar-item">
+        <div
+          className={`sidebar-item ${
+            location.pathname === "/add-member" ? "active" : ""
+          }`}
+        >
           <div className="sidebar-icon member-icon">
             <svg
               width="70"
@@ -103,7 +117,11 @@ const Sidebar = () => {
         </div>
       </Link>
       <Link to="/issue-item">
-        <div className="sidebar-item">
+        <div
+          className={`sidebar-item ${
+            location.pathname === "/issue-item" ? "active" : ""
+          }`}
+        >
           <div className="sidebar-icon">
             <svg
               width="58"
@@ -124,7 +142,11 @@ const Sidebar = () => {
         </div>
       </Link>
       <Link to="/return-reissue">
-        <div className="sidebar-item">
+        <div
+          className={`sidebar-item ${
+            location.pathname === "/return-reissue" ? "active" : ""
+          }`}
+        >
           <div className="sidebar-icon">
             <svg
               width="64"

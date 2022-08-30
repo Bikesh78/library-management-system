@@ -460,6 +460,9 @@ header .nav-bar .nav-items {
 .sidebar .sidebar-item.active {
   color: #e88888;
 }
+.sidebar .sidebar-item.active p {
+  color: #e88888;
+}
 .sidebar .sidebar-item.active .member-icon svg path {
   fill: none;
   stroke: #e88888;
